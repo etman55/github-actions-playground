@@ -1,4 +1,4 @@
-name: Jenkins-playgound github actions CI
+name: github-actions-playgound github actions CI
 
 on:
   push:
