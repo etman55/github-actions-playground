@@ -12,7 +12,7 @@ jobs:
   
    steps:
     - uses: actions/checkout@v2
-      run: bash ./gradlew test
+    - run: bash ./gradlew test
 
   apk:
    needs: unitTest
